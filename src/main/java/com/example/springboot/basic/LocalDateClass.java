@@ -11,7 +11,8 @@ import java.time.format.DateTimeFormatter;
 public class LocalDateClass {
 
     public static void main(String[] args) {
-        System.out.println(getDate(System.currentTimeMillis()));
+        LocalDate now = getDate(System.currentTimeMillis());
+        System.out.println(now);
     }
 
     private static LocalDate getDate(Long ts){
